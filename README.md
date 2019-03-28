@@ -1,4 +1,5 @@
-# CMPUT 291 Assignment 4 Project
+# City of Edmonton Crime Map Management System
+CMPUT 291 Assignment 4 Project
 
 ## 1. System overview and user guide
 This system guides users, using a command line interface, through different tasks that parse data 
@@ -86,20 +87,3 @@ crime type in each of these respective neighbourhoods. If there is an error when
 processing the data, the program prompts the user that an error has occurred and whether they want to continue
 with the current task or quit. The map will be displayed through a browser that pops up and saved in the
 current directory as Q4-n.html, where n is the number of times this task was called. 
-## 3. Testing Strategy
-All testing involved the sample database provided. Testing for individual tasks was done as the code was
-being written; this involved, in some cases, checking the output of SQL queries before outputting the 
-result as a map visualization or plotting the results on a graph. Once tasks were completed, testing was 
-done using the sample database on each task individually; this involved manually inspecting the database 
-contents using a database visualizer such as DB Browser for SQLite, examining the expected output of the 
-task, running the task’s code to ensure accuracy, and error checking with improper inputs. When all tasks
-were completed and corroborated into the same program, final testing was done on each task to ensure accuracy.
-## 4. Group work breakdown
-The group members used GitHub, a web-based hosting service for version control, to efficiently distribute
-and collaborate with one another. Nathan completed the code for task 3, created the layout for this design
-document and wrote sections 2.4 and 3. Adrian completed the code for tasks 1 and 2, implemented the main
-function, menu, and dataflow between functions and the main function, and wrote sections 1, 2.1, 2.2, and 2.3.
-Nomar completed the code for task 4 and wrote section and 2.5. Each group member looked over the others’ code 
-to ensure accuracy and performed final editing on this design document. The group met twice for an hour each time,
-to discuss the project and divide responsibilities. Each group member spent approximately 3 hours completing
-their portions.
