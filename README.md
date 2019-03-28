@@ -87,3 +87,7 @@ crime type in each of these respective neighbourhoods. If there is an error when
 processing the data, the program prompts the user that an error has occurred and whether they want to continue
 with the current task or quit. The map will be displayed through a browser that pops up and saved in the
 current directory as Q4-n.html, where n is the number of times this task was called. 
+
+## Collaborators
+* [Nathan Vandermolen-Pater](https://github.com/natemalek)
+* [Nomar Chavez](https://github.com/nmrchvz)
